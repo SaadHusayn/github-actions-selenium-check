@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import unittest
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 
 class CheckTests(unittest.TestCase):
 
