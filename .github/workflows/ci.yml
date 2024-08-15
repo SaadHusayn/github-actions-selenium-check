@@ -1,0 +1,12 @@
+name: Testing
+on: push
+
+jobs:
+    test_project:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v2
+            - name: Run Selenium Unit Test
+              run: |
+                pip3 install --user selenium
+                python3 tests.py
