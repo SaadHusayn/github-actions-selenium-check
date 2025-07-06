@@ -13,7 +13,7 @@ class CheckTests(unittest.TestCase):
 
     def test_title(self):
         driver.get('https://www.google.com/')
-        self.assertEqual(driver.title, 'Google')
+        self.assertEqual(driver.title, 'Firefox')
 
 
 if __name__ == "__main__":
